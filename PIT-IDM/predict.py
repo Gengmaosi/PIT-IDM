@@ -4,7 +4,7 @@ import copy
 import time
 import numpy as np
 import pandas as pd
-from model1_test import PIT_IDM_1
+# from model1_test import PIT_IDM_1
 from model2_test import PIT_IDM_2
 #from model1 import PIT_IDM_1
 #from model2 import PIT_IDM_2
