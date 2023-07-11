@@ -84,7 +84,7 @@ lr_PINN = 0.0000001
 epoch_num = 500
 alpha = 0.7
 model_2 = PIT_IDM_2(ninput, ntoken, ninp, nhead, nhid, fusion_size, nlayers, dropout, output_length, s_0, T, a, b, v_d, dt, lr_PUNN, lr_PINN, epoch_num, alpha)
-model_location = r'\PIT-IDM(2)_CKQ4_0917.tar'
+model_location = r'\PIT-IDM_2_UTE.tar'
 start_of_seq = torch.Tensor([0]).unsqueeze(0).unsqueeze(1).repeat(input_x.shape[0], 1, 1)
 dec_input = start_of_seq
 for i in range(output_length):
