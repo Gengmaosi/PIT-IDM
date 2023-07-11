@@ -5,7 +5,7 @@ import time
 import numpy as np
 import pandas as pd
 from model1_test import PIT_IDM_1
-#from model2_test import PIT_IDM_2
+from model2_test import PIT_IDM_2
 #from model1 import PIT_IDM_1
 #from model2 import PIT_IDM_2
 from utils import TrajectoryData, data_preprocess, step_error, all_step_error, _generate_square_subsequent_mask
