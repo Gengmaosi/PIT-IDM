@@ -1,5 +1,2 @@
 # PIT-IDM
 The implementation of the paper "A Physics-Informed Transformer Model for Vehicle Trajectory Prediction on Highways". Because of the confidentiality agreement and the commercial project application, the training part of the PIT-IDM is unavailable. Still, we upload the trajectory prediction demo code, i.e., 'predict.py', and 'PIT-IDM_1_UTE.tar' standing for the model already pre-trained on the UTE dataset.
-
-# Attention
-This is the official PIT-IDM link. 'https://github.com/qcl-0218/Physics-informed-Transformer-IDM' is not the official link!
